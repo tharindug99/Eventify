@@ -1,12 +1,12 @@
 {
   "name": "eventify",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
     "build": "react-scripts build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +19,6 @@
     "nodemon": "^2.0.22",
     "react-router-dom": "^6.11.2",
     "react-scripts": "5.0.1"
-  }
+  },
+  "description": ""
 }
